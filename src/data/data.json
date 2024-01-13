@@ -1,0 +1,35 @@
+{
+    "navlinks": [
+        {
+            "title": "Home",
+            "href": "#home",
+            "order": 1,
+            "component": "Home"
+        },
+        {
+            "title": "Experience",
+            "href": "#experiences",
+            "order": 2,
+            "component": "Experiences"
+        },
+        {
+            "title": "TechStack",
+            "href": "#techstack",
+            "order": 3,
+            "component": "TechStack"
+        },
+        {
+            "title": "Projects",
+            "href": "#projects",
+            "order": 4,
+            "component": "Projects"
+        },
+        {
+            "title": "Contact",
+            "href": "#contact",
+            "order": 5,
+            "component": "Contact"
+        }
+
+    ]
+}

@@ -1,0 +1,180 @@
+:root {
+    --frame-grad-1 : #ffffff;
+    --frame-grad-2 : #000000;
+    --cut-right-left-height: 50%;
+    --cut-top-bottom-width: 75%;
+}
+
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+
+.intro {
+    padding: 10px;
+}
+
+.frame {
+    background: linear-gradient(95deg,#9aefab,#26d153,#bfe923,#db73e9);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+    position: relative;
+    padding: 1rem; /* Add padding to create space between the border and content */
+    border: none; /* Set an initial transparent border */
+    border-radius: 10px;
+  }
+
+.frame-content {
+    background-color: var(--main-background-color);
+    padding: 100px;
+}
+ 
+.cut-left, .cut-right {
+    height: var(--cut-right-left-height);
+    width: 1rem;
+    background:  var(--main-background-color);
+    position: absolute;
+    
+}
+
+.cut-top, .cut-bottom {
+    width:  var(--cut-top-bottom-width);
+    height: 1rem;
+    background:  var(--main-background-color);
+    position: absolute;
+}
+
+.cut-left {
+    left: 0;
+    bottom: 0;
+}
+
+.cut-right {
+    right: 0;
+    top: 0;
+}
+
+.cut-top {
+    top: 0;
+    right: 0;
+}
+
+.cut-bottom {
+    bottom: 0;
+    left: 0;
+}
+
+
+.cut-left:before, .cut-right:before {
+    content: "";
+    border: .5rem solid var(--main-background-color);
+    position: absolute;
+}
+
+.cut-top:before, .cut-bottom:before {
+    content: "";
+    border: .5rem solid var(--main-background-color);
+    position: absolute;
+}
+
+.cut-right:before {
+    border-bottom: .5rem solid transparent;
+    border-right: .5rem solid transparent;
+    bottom: -16px;
+}
+
+.cut-left:before {
+    border-top: .5rem solid transparent;
+    border-left: .5rem solid transparent;
+    top: -16px;
+}
+
+.cut-top:before {
+    border-top: 0.5rem solid transparent;
+    border-left: 0.5rem solid transparent;
+    left: -16px;
+}
+
+.cut-bottom:before {
+    border-bottom: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+    right: -16px;
+}
+
+.explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    position: absolute;
+    bottom: 0;
+    padding: 0 !important;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.explore .text {
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.explore .arrow {
+    height: 40px;
+    width: 2px;
+    background-color: rgb(2 132 199);
+    transition: all .5s ease;
+}
+
+.explore:hover .text {
+    font-weight: bold;
+}
+
+.explore:hover .arrow {
+    height: 25px;
+    width: 4px;
+}
+
+/* Arrow & Hover Animation */
+#more-arrows {
+    width: 75px;
+    height: 65px;
+    background-color: transparent;
+    cursor: pointer;
+    scale: .55;
+  }
+  #more-arrows:hover polygon {
+    fill: rgb(2 132 199);
+    transition: all 0.2s ease-out;
+  }
+  #more-arrows:hover polygon.arrow-bottom {
+    transform: translateY(-18px);
+  }
+  #more-arrows:hover polygon.arrow-top {
+    transform: translateY(18px);
+  }
+  
+  polygon {
+    fill: rgb(2 132 199);
+    transition: all 0.2s ease-out;
+  }
+  polygon.arrow-middle {
+    opacity: 0.75;
+  }
+  polygon.arrow-top {
+    opacity: 0.5;
+  }
+
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  

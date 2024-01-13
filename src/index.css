@@ -1,0 +1,89 @@
+@import url('https://fonts.cdnfonts.com/css/barlow');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-font: 'Barlow', sans-serif;
+  --main-font-color: white;
+  --main-element-color: rgb(94, 234, 212);
+  --main-background-color: #ffffff;
+  --link-color: #000000;
+  --link-line-color: rgb(2 132 199);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--main-font);
+}
+
+.header {
+  height: 70px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  height: 50px;
+  background: transparent;
+}
+
+.content-div {
+  position: relative;
+  height: calc(100vh - 70px); /* Subtract 100px for the top spacing */
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* scroll-snap-type: y mandatory; Enable snapping for each section */
+  scroll-behavior: smooth;
+}
+
+.content-div > div:not(:first-child) {
+  padding: 10px;
+}
+
+.content-div > div {
+  height: calc(100vh - 70px); /* Each section takes up the full viewport height */
+  scroll-snap-align: start; /* Snap to the start of each section */
+}
+
+* Enable scrolling */
+.content-div::-webkit-scrollbar {
+    width: 0; /* Hide scrollbar */
+  }
+  
+/* Optional: Handle browser-specific scrollbar styles */
+/* Firefox */
+.content-div {
+  scrollbar-width: none;
+}
+
+/* Internet Explorer */
+.content-div {
+  -ms-overflow-style: none;
+}
+
+.navigating-menu ul li {
+  color: var(--link-color);
+}
+
+.expand{
+    position:relative;
+    text-decoration:none;
+    display:inline-block;
+}
+.expand:after {
+    display:block;
+    content: '';
+    border-bottom: solid 4px var(--link-line-color);  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+    transform-origin:100% 50%
+}
+.expand:hover:after { 
+    transform: scaleX(1);
+    transform-origin:0 50%;
+}
+
