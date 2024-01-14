@@ -30,6 +30,120 @@
             "order": 5,
             "component": "Contact"
         }
+    ],
 
+    "socialLinks": [
+        {
+            "title": "Linkedin",
+            "image": "linkedin",
+            "href": "https://www.linkedin.com/in/harshmishra27/"
+        },{
+            "title": "Gmail",
+            "image": "gmail",
+            "href": "mishraharsh27@gmail.com"
+        },
+        {
+            "title": "Instagram",
+            "image": "instagram",
+            "href": "https://www.instagram.com/harsh_2799/"
+        },
+        {
+            "title": "Github",
+            "image": "github",
+            "href": "https://github.com/harsh2799"
+        },
+        {
+            "title": "LeetCode",
+            "image": "leetcode",
+            "href": "https://leetcode.com/harshm2799/"
+        }
+    ],
+    "experience": [
+        {
+            "id": 3,
+            "company_name": "turabit solutions LLC",
+            "position": "Software Developer",
+            "time": "June 2020 - August 2023",
+            "skills": ["ELK Stack", "Apache Kafka", "Docker", "Flask-Restful", "Microservices", "System Architecture", "System Design", "Git", "ServiceNow", "Socket IO"],
+            "description": "Developed a centeralized logging system with Apache Kafka, Python and ELK stack for microservice architecture, a live chat feature for chatbot with Python and Socket IO, and a smart email service with ServiceNow and NLP, among other solutions.",
+            "logo": "turabit-logo.png"
+        },
+        {
+            "id": 2,
+            "company_name": "turabit solution LLC",
+            "position": "Software Developer Intern",
+            "time": "December 2019 - April 2020",
+            "skills": ["Python", "Flask", "HTML", "Bootstrap", "Javascript", "Jquery", "Angularjs", "Mysql", "SocketIO"],
+            "description": "Developed a dashboard for human agents to manage multiple client requests with ease. Handling multiple requests from a single page, providing a streamlined and efficient workflow.",
+            "logo": "turabit-logo.png"
+        },
+        {
+            "id": 1,
+            "company_name": "Royal Technosoft",
+            "position": "Web Developer Intern",
+            "time": "June 2019 - August 2019",
+            "skills": ["HTML", "CSS", "Bootstrap", "PHP", "Postgres", "Team Work"],
+            "description": "Worked on ERP for royal technosoft to allow prospective clients to enroll to the Organization and managing the organization from admin page.",
+            "logo": "royal-logo.png"
+        }
+    ],
+    "skillsets" : [
+        {
+            "name": "Backend Development",
+            "logo": "backend.png",
+            "skills": [
+                {"name": "Python", "icon": "python.svg"},
+                {"name":"Java", "icon": "java.svg"},
+                {"name": "NodeJS", "icon": "nodejs.svg"},
+                {"name": "Flask","icon": "flask.svg"},
+                {"name": "Docker","icon": "docker.svg"}, 
+                {"name": "ServiceNow","icon": "servicenow.svg"}, 
+                {"name": "Apache Kafka","icon": "kafka.svg"}, 
+                {"name": "ELK Stack","icon": "elk.svg"}, 
+                {"name": "Socket IO","icon": "socketio.svg"}, 
+                {"name": "Fast Api","icon": "fastapi.svg"}
+            ],
+            "id": 0
+        },
+        {
+            "name": "Database", 
+            "logo": "database.png",
+            "skills": [
+                {"name": "MySQL", "icon": "mysql.svg"}, 
+                {"name": "Postgres", "icon": "postgre.svg"}, 
+                {"name": "MongoDB", "icon": "mongo.svg"}, 
+                {"name": "Firebase", "icon": "firebase.svg"},
+                {"name": "Redis", "icon": "redis.svg"}
+            ],
+            "id": 1
+        },
+        {
+            "name": "Frontend Development",
+            "logo": "frontend.png",
+            "skills": [
+                {"name": "HTML", "icon": "html.svg"}, 
+                {"name": "CSS", "icon": "css.svg"}, 
+                {"name": "Bootstrap", "icon": "bootstrap.svg"},
+                {"name": "Javascript", "icon": "javascript.svg"}, 
+                {"name": "JQuery", "icon": "jquery.svg"}, 
+                {"name": "React", "icon": "react.svg"}, 
+                {"name": "Angularjs", "icon": "angular.svg"},
+                {"name": "Tailwind CSS", "icon": "tailwindcss.svg"},
+                {"name": "Figma", "icon": "figma.svg"},
+                {"name": "Illustrator", "icon": "adobe-illustrator.svg"},
+                {"name": "XD", "icon": "adobe-xd.svg"}
+            ],
+            "id": 2
+        }, 
+        {
+            "name": "Tools",
+            "logo": "",
+            "skills": [
+                {"name": "Postman", "icon": "postman.svg"}, 
+                {"name": "VS Code", "icon": "vstudio.svg"}, 
+                {"name": "Intellij", "icon": "intellij.svg"}
+            ]
+        }
     ]
+    
 }
