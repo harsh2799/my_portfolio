@@ -3,7 +3,7 @@ import { FaLink, FaGithub } from 'react-icons/fa';
 
 const Project = ({id, title, github_link, page_link, image_source, description, tech_stack}) => {
 
-  const image_path = "/src/assets/images/projects/";
+  const image_path = "/assets/images/projects/";
   const default_image = "space.jpg"
 
   return (

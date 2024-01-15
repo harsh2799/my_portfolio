@@ -4,7 +4,7 @@ import {useAnimation, motion} from 'framer-motion'
 
 const Job = ({id, company_name, position, time, skills, description, logo}) => {
   
-  const logoPath = "/src/assets/icons/jobs/";
+  const logoPath = "/assets/icons/jobs/";
   
   return (
       <motion.div 

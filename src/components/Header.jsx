@@ -6,7 +6,7 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 
 const Header = ({contentRef}) => {
 
-  const logo = "src/assets/icons/logos/logo-black.svg"
+  const logo = "/assets/icons/logos/logo-black.svg"
   const navlinks = data.navlinks;
   const navRef = useRef();
 
