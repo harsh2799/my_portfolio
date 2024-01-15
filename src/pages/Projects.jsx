@@ -24,7 +24,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="absolute bottom-0 w-100 text-center w-full p-2">
-        <span> Made with ❤️ by <a className='text-sky-500' target="_blank" href="https://www.linkedin.com/in/harshmishra27/">Harsh Mishra</a> </span>
+        <span>❤️ Designed with innovation and dedication 🚀 by <a className='text-sky-500' target="_blank" href="https://www.linkedin.com/in/harshmishra27/">Harsh Mishra</a> </span>
       </div>
     </div>
   )
