@@ -183,6 +183,15 @@
             "image_source": "backroads.jpg",
             "description": "React Project to showcase tours.",
             "tech_stack": ["React", "Bootstrap"]
+        },
+        {
+            "id": 5,
+            "title": "Portfolio",
+            "github_link": "https://github.com/harsh2799/developer_portfolio",
+            "page_link": "https://testtemplate.harshmishra.me",
+            "image_source": "dev_portfolio.jpg",
+            "description": "A template for portfolio.",
+            "tech_stack": ["React"]
         }
     ]
     
