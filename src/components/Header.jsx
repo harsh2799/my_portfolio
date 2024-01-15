@@ -30,14 +30,14 @@ const Header = ({contentRef}) => {
       </div>
       <nav className='navigating-menu mr-10'  ref={navRef}>
         <ul className='flex gap-5 navbar'>
+          <li className='expand p-2'>
+            <a href="src\data\Harsh_Mishra_Resume.pdf" target="_blank">Resume</a>
+          </li>
           {
             navlinks.map((navlink) => {
                 return <Link key={navlink.order} {...navlink} navClose={hideNavbar}/>
             })
           }
-          <li className='expand p-2'>
-            <a href="src\data\Harsh_Mishra_Resume.pdf" target="_blank">Resume</a>
-          </li>
         </ul>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
               <FaTimes />

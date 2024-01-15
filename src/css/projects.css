@@ -1,0 +1,39 @@
+#projects {
+    background-color: #F5F5F5;
+}
+
+.project-container {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    /* max-width: 300px; */
+}
+
+.project-container img {
+   
+    filter: grayscale(100%);
+    transition: all .5s;
+    vertical-align: middle;
+    height: 250px;
+    width: 100%;
+}
+
+.project-container:hover img {
+    filter: grayscale(0);
+}
+
+.nav-to-proj {
+    position: absolute;
+    top: 10px;
+    color: white;
+    right: 10px;
+    font-size: 24px;
+}
+
+.all-projects {
+    max-height: 70vh;
+}
+
+.all-projects::-webkit-scrollbar {
+    width: 0; /* Hide scrollbar */
+  }

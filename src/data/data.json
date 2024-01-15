@@ -23,12 +23,6 @@
             "href": "#projects",
             "order": 4,
             "component": "Projects"
-        },
-        {
-            "title": "Contact",
-            "href": "#contact",
-            "order": 5,
-            "component": "Contact"
         }
     ],
 
@@ -89,35 +83,6 @@
     ],
     "skillsets" : [
         {
-            "name": "Backend Development",
-            "logo": "backend.png",
-            "skills": [
-                {"name": "Python", "icon": "python.svg"},
-                {"name":"Java", "icon": "java.svg"},
-                {"name": "NodeJS", "icon": "nodejs.svg"},
-                {"name": "Flask","icon": "flask.svg"},
-                {"name": "Docker","icon": "docker.svg"}, 
-                {"name": "ServiceNow","icon": "servicenow.svg"}, 
-                {"name": "Apache Kafka","icon": "kafka.svg"}, 
-                {"name": "ELK Stack","icon": "elk.svg"}, 
-                {"name": "Socket IO","icon": "socketio.svg"}, 
-                {"name": "Fast Api","icon": "fastapi.svg"}
-            ],
-            "id": 0
-        },
-        {
-            "name": "Database", 
-            "logo": "database.png",
-            "skills": [
-                {"name": "MySQL", "icon": "mysql.svg"}, 
-                {"name": "Postgres", "icon": "postgre.svg"}, 
-                {"name": "MongoDB", "icon": "mongo.svg"}, 
-                {"name": "Firebase", "icon": "firebase.svg"},
-                {"name": "Redis", "icon": "redis.svg"}
-            ],
-            "id": 1
-        },
-        {
             "name": "Frontend Development",
             "logo": "frontend.png",
             "skills": [
@@ -136,13 +101,88 @@
             "id": 2
         }, 
         {
+            "name": "Backend Development",
+            "logo": "backend.png",
+            "skills": [
+                {"name": "Python", "icon": "python.svg"},
+                {"name":"Java", "icon": "java.svg"},
+                {"name": "NodeJS", "icon": "nodejs.svg"},
+                {"name": "Flask","icon": "flask.svg"},
+                {"name": "Apache Kafka","icon": "kafka.svg"}, 
+                {"name": "Socket IO","icon": "socketio.svg"}, 
+                {"name": "Fast Api","icon": "fastapi.svg"}
+            ],
+            "id": 0
+        },
+        {
+            "name": "Database", 
+            "logo": "database.png",
+            "skills": [
+                {"name": "MySQL", "icon": "mysql.svg"}, 
+                {"name": "Postgres", "icon": "postgre.svg"}, 
+                {"name": "ELK Stack","icon": "elk.svg"}, 
+                {"name": "MongoDB", "icon": "mongo.svg"}, 
+                {"name": "Firebase", "icon": "firebase.svg"},
+                {"name": "Redis", "icon": "redis.svg"}
+            ],
+            "id": 1
+        },
+        {
+            "name": "Cloud Technologies",
+            "logo": "",
+            "skills": [
+                {"name": "Docker","icon": "docker.svg"}, 
+                {"name": "AWS","icon": "aws.svg"},
+                {"name": "Azure", "icon": "azure.svg"}
+            ]
+        },
+        {
             "name": "Tools",
             "logo": "",
             "skills": [
                 {"name": "Postman", "icon": "postman.svg"}, 
-                {"name": "VS Code", "icon": "vstudio.svg"}, 
-                {"name": "Intellij", "icon": "intellij.svg"}
+                {"name": "Intellij", "icon": "intellij.svg"},
+                {"name": "ServiceNow","icon": "servicenow.svg"}, 
+                {"name": "VS Code", "icon": "vstudio.svg"} 
             ]
+        }
+    ],
+    "projects" : [
+        {
+            "id": 1,
+            "title": "NBCVizualize",
+            "github_link": "https://github.com/harsh2799/ConUHacksNBCVisualize",
+            "page_link": "",
+            "image_source": "nbcvisualize.png",
+            "description": "Data visualization Project",
+            "tech_stack": ["Flask", "Firebase", "HighCharts.js"]
+        },
+        {
+            "id": 2,
+            "title": "Self Insure",
+            "github_link": "",
+            "page_link": "",
+            "image_source": "",
+            "description": "Project to notify acctident to nearby first Responders",
+            "tech_stack": ["Java", "JDBC", "JSP Servlet","MySQL"]
+        },
+        {
+            "id": 3,
+            "title": "Portfolio",
+            "github_link": "https://github.com/harsh2799/developer_portfolio",
+            "page_link": "",
+            "image_source": "",
+            "description": "Personal Portfolio Project",
+            "tech_stack": ["React", "Tailwind CSS"]
+        },
+        {
+            "id": 4,
+            "title": "BackRoads",
+            "github_link": "https://github.com/harsh2799/react-project-1",
+            "page_link": "https://test.harshmishra.me/",
+            "image_source": "backroads.jpg",
+            "description": "React Project to showcase tours.",
+            "tech_stack": ["React", "Bootstrap"]
         }
     ]
     
