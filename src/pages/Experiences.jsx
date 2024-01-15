@@ -7,7 +7,7 @@ const Experiences = () => {
 
     const socialLinks = data.socialLinks;
     const experiences = data.experience;
-    const linkPath = "src/assets/icons/social/"
+    const linkPath = "/assets/icons/social/"
 
     return <div id="experiences" className='flex flex-col items-center pt-16 md:pt-20 lg:flex-row'>
         <div className='introduction flex-1 p-2 flex justift-center flex-col text-center sm:w-3/4 lg:w-3/5 lg:pr-12 lg:text-left'>
