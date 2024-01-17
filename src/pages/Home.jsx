@@ -1,6 +1,5 @@
 import React from 'react'
 import "../css/home.css"
-import helloThereSound from "../assets/sound/obi-wan-hello-there.mp3"
 import { motion } from "framer-motion"
 
 const Home = () => {
