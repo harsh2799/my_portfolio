@@ -178,9 +178,9 @@
         {
             "id": 3,
             "title": "Portfolio",
-            "github_link": "https://github.com/harsh2799/developer_portfolio",
-            "page_link": "",
-            "image_source": "",
+            "github_link": "https://github.com/harsh2799/my_portfolio",
+            "page_link": "http://harshmishra.me",
+            "image_source": "personal_portfolio.jpg",
             "description": "Personal Portfolio Project",
             "tech_stack": ["React", "Tailwind CSS"]
         },
