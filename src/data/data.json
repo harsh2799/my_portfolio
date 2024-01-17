@@ -149,6 +149,15 @@
     ],
     "projects" : [
         {
+            "id": 5,
+            "title": "Netflix Clone",
+            "github_link": "",
+            "page_link": "https://netflix-clone-e6e46.web.app/",
+            "image_source": "netflix.jpg",
+            "description": "A Netflix Clone Project",
+            "tech_stack": ["React", "Redux", "Firebase", "TMDB API"]
+        },
+        {
             "id": 1,
             "title": "NBCVizualize",
             "github_link": "https://github.com/harsh2799/ConUHacksNBCVisualize",
