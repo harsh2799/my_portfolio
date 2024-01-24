@@ -147,61 +147,82 @@
             ]
         }
     ],
-    "projects" : [
-        {
-            "id": 5,
-            "title": "Netflix Clone",
-            "github_link": "https://github.com/harsh2799/netflix_clone",
-            "page_link": "https://netflix-clone-e6e46.web.app/",
-            "image_source": "netflix.jpg",
-            "description": "A Netflix Clone Project",
-            "tech_stack": ["React", "Redux", "Firebase", "TMDB API"]
-        },
-        {
-            "id": 1,
-            "title": "NBCVizualize",
-            "github_link": "https://github.com/harsh2799/ConUHacksNBCVisualize",
-            "page_link": "",
-            "image_source": "nbcvisualize.png",
-            "description": "Data visualization Project",
-            "tech_stack": ["Flask", "Firebase", "HighCharts.js"]
-        },
-        {
-            "id": 2,
-            "title": "Self Insure",
-            "github_link": "",
-            "page_link": "",
-            "image_source": "",
-            "description": "Project to notify acctident to nearby first Responders",
-            "tech_stack": ["Java", "JDBC", "JSP Servlet","MySQL"]
-        },
-        {
-            "id": 3,
-            "title": "Portfolio",
-            "github_link": "https://github.com/harsh2799/my_portfolio",
-            "page_link": "http://harshmishra.me",
-            "image_source": "personal_portfolio.jpg",
-            "description": "Personal Portfolio Project",
-            "tech_stack": ["React", "Tailwind CSS"]
-        },
-        {
-            "id": 4,
-            "title": "BackRoads",
-            "github_link": "https://github.com/harsh2799/react-project-1",
-            "page_link": "https://test.harshmishra.me/",
-            "image_source": "backroads.jpg",
-            "description": "React Project to showcase tours.",
-            "tech_stack": ["React", "Bootstrap"]
-        },
-        {
-            "id": 5,
-            "title": "Portfolio",
-            "github_link": "https://github.com/harsh2799/developer_portfolio",
-            "page_link": "https://testtemplate.harshmishra.me",
-            "image_source": "dev_portfolio.jpg",
-            "description": "A template for portfolio.",
-            "tech_stack": ["React"]
-        }
-    ]
-    
+    "projects" : {
+        "top": [ 
+            {
+                "id": 5,
+                "title": "Netflix Clone",
+                "github_link": "https://github.com/harsh2799/netflix_clone",
+                "page_link": "https://netflix-clone-e6e46.web.app/",
+                "image_source": "netflix.jpg",
+                "description": "A Netflix Clone Project",
+                "tech_stack": ["React", "Redux", "Firebase", "TMDB API"]
+            },
+            {
+                "id": 1,
+                "title": "NBCVizualize",
+                "github_link": "https://github.com/harsh2799/ConUHacksNBCVisualize",
+                "page_link": "",
+                "image_source": "nbcvisualize.png",
+                "description": "Data visualization Project",
+                "tech_stack": ["Flask", "Firebase", "HighCharts.js"]
+            },
+            {
+                "id": 3,
+                "title": "Portfolio",
+                "github_link": "https://github.com/harsh2799/my_portfolio",
+                "page_link": "http://harshmishra.me",
+                "image_source": "personal_portfolio.jpg",
+                "description": "Personal Portfolio Project",
+                "tech_stack": ["React", "Tailwind CSS"]
+            },
+            {
+                "id": 4,
+                "title": "BackRoads",
+                "github_link": "https://github.com/harsh2799/react-project-1",
+                "page_link": "https://test.harshmishra.me/",
+                "image_source": "backroads.jpg",
+                "description": "React Project to showcase tours.",
+                "tech_stack": ["React", "Bootstrap"]
+            }
+        ],
+        "regular": [
+            {
+                "id": 2,
+                "title": "Self Insure",
+                "github_link": "",
+                "page_link": "",
+                "image_source": "",
+                "description": "Project to notify acctident to nearby first Responders",
+                "tech_stack": ["Java", "JDBC", "JSP Servlet","MySQL"]
+            },
+            {
+                "id": 5,
+                "title": "Portfolio",
+                "github_link": "https://github.com/harsh2799/developer_portfolio",
+                "page_link": "https://testtemplate.harshmishra.me",
+                "image_source": "dev_portfolio.jpg",
+                "description": "A template for portfolio.",
+                "tech_stack": ["React"]
+            },
+            {
+                "id": 2,
+                "title": "Self Insure",
+                "github_link": "",
+                "page_link": "",
+                "image_source": "",
+                "description": "Project to notify acctident to nearby first Responders",
+                "tech_stack": ["Java", "JDBC", "JSP Servlet","MySQL"]
+            },
+            {
+                "id": 5,
+                "title": "Portfolio",
+                "github_link": "https://github.com/harsh2799/developer_portfolio",
+                "page_link": "https://testtemplate.harshmishra.me",
+                "image_source": "dev_portfolio.jpg",
+                "description": "A template for portfolio.",
+                "tech_stack": ["React"]
+            }
+        ]
+    }
 }
