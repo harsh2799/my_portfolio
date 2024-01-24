@@ -224,13 +224,13 @@
 }
 
 .light-toggle-switch {
-  border: 2px solid #0f0f0f;
-  color: #0f0f0f;
+  background-color: #0f0f0f;
+  color: white;
 }
 
 .dark-toggle-switch {
-  border: 2px solid yellow;
-  color: yellow;
+  background-color: yellow;
+  color: #0f0f0f;
 }
 
 .light-toggle-switch:hover {
