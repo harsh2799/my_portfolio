@@ -13,9 +13,9 @@ const Job = ({id, company_name, position, time, skills, description, logo}) => {
       transition={{delay: .25, ease: "easeIn"}}
         className={"container left slide-left cursor-pointer"}>
         <div className="content">
-          <h2 className='company-name'>{company_name}</h2>
+          <h2 className='company-name intro-text'>{company_name}</h2>
           <h4 className='position-time'>{position}  <span className='time'>{time}</span></h4>
-          <p className='work-description'>
+          <p className='work-description intro-text'>
             {description}
           </p>
           <div className='skills'>

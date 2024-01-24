@@ -13,7 +13,7 @@ const Home = () => {
           <div className='cut-bottom'></div>
           <div className='cut-top'></div>
           
-          <div className='frame-content'>
+          <div className='frame-content tile-bg'>
             <motion.div  
               initial={{x:"100%", opacity: 0}}
               animate={{x: "0", opacity: 1, transition: {ease: "linear", duration: .75}}}
@@ -23,7 +23,7 @@ const Home = () => {
             <motion.div 
               initial={{x:"-100%", opacity: 0}}
               animate={{x: "0", opacity: 1, transition: {ease: "linear", duration: .75}}}
-              className='text-2xl md:text-2lg lg:text-4lg mx-auto'>- a <span className='text-cyan-700 hover:font-medium'>fullstack developer</span> with a knack for problem-solving and a passion for crafting seamless digital experiences.</motion.div>
+              className='text-2xl md:text-2lg lg:text-4lg mx-auto intro-text'>- a <span className='text-cyan-700 hover:font-medium'>fullstack developer</span> with a knack for problem-solving and a passion for crafting seamless digital experiences.</motion.div>
           </div>
         </div>
       </motion.div>

@@ -4,9 +4,10 @@ import Link from "../components/Link.jsx"
 import { motion } from "framer-motion"
 import { FaBars, FaTimes } from 'react-icons/fa'
 
-const Header = ({contentRef}) => {
+const Header = ({contentRef, currentTheme}) => {
 
-  const logo = "/assets/icons/logos/logo-black.svg"
+  const darkLogo = "/assets/icons/logos/logo-black.svg"
+  const lightLogo = "/assets/icons/logos/logo-light.svg"
   const navlinks = data.navlinks;
   const navRef = useRef();
 
@@ -25,8 +26,8 @@ const Header = ({contentRef}) => {
     initial={{y:"-100%", opacity: 0}}
     animate={{y: "0", opacity: 1, transition: {ease: "linear", duration: .75}}}
     className="header flex justify-between w-100 p-5">
-      <div className='logo-container ml-10'>
-        <a href="/"><img className='logo' src={logo} /></a>
+      <div className='logo-container'>
+        <a href="/"><img className='logo' src={currentTheme == "light" ? darkLogo : lightLogo} /></a>
       </div>
       <nav className='navigating-menu mr-10'  ref={navRef}>
         <ul className='flex gap-5 navbar'>

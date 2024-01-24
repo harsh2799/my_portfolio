@@ -215,3 +215,9 @@
     border-radius: 9999px;
     text-align: center;
 }
+
+@media screen and (max-width: 1000px ) {
+    .excontent {
+        height: auto;
+    }
+}

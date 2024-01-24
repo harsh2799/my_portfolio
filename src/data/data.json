@@ -1,4 +1,28 @@
 {
+    "color-scheme": {
+        "light": {
+            "main-font-color": "rgb(20, 20, 20)",
+            "main-element-color": "rgb(2 132 199)",
+            "main-background-color": "#ffffff",
+            "link-color": "#000000",
+            "link-line-color":" rgb(2 132 199)",
+            "nav-button-color": "rgb(0 0 0)",
+            "skill-button": "#ffffff",
+            "techstack-background": "rgb(248 250 252)",
+            "tile-background": "#ffffff"
+        },
+        "dark": {
+            "main-font-color": "#f0f0f0",
+            "main-element-color": "rgb(2 132 199)",
+            "main-background-color": "#0f0f0f",
+            "link-color": "#ffffff",
+            "link-line-color":" rgb(2 132 199)",
+            "nav-button-color": "#ffffff",
+            "-skill-button": "#ffffff",
+            "techstack-background": "#0f0f0f",
+            "tile-background": "#232121"
+        }
+    },
     "navlinks": [
         {
             "title": "Home",

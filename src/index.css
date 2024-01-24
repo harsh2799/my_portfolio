@@ -5,13 +5,15 @@
 
 :root {
   --main-font: 'Barlow', sans-serif;
-  --main-font-color: white;
+  --main-font-color: rgb(20, 20, 20);
   --main-element-color: rgb(2 132 199);
   --main-background-color: #ffffff;
   --link-color: #000000;
   --link-line-color: rgb(2 132 199);
   --nav-button-color: rgb(0 0 0);
   ---skill-button: #ffffff;
+  --techstack-background: rgb(248 250 252);
+  --tile-background: #ffffff;
 }
 
 * {
@@ -27,6 +29,8 @@
   top: 0;
   width: 100%;
   z-index: 10;
+  background: var(--main-background-color);
+  transition: background 0.2s linear;
 }
 
 .header-shadow {
@@ -45,6 +49,8 @@
   overflow-x: hidden;
   /* scroll-snap-type: y mandatory; Enable snapping for each section */
   scroll-behavior: smooth;
+  background: var(--main-background-color);
+  transition: background 0.2s linear;
 }
 
 .content-div > div:not(:first-child) {
@@ -133,6 +139,16 @@
   /* z-index: -1; */
 }
 
+.techstack-bg {
+  background: var(--techstack-background);
+  transition: background 0.2s linear;
+}
+
+.tile-bg {
+  background: var(--tile-background);
+  transition: background 0.2s linear;
+}
+
 @media only screen and (max-width: 1024px) {
   .header .nav-btn {
       display: block;
@@ -180,10 +196,48 @@
 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1240px) {
 
   .content-div > div:not(:first-child) {
     height: auto;
   }
   
+}
+
+@media (max-width: 800px) {
+
+  .tile-bg {
+    background: none;
+  }
+  
+}
+
+.toggle-switch {
+  padding: 10px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: none;
+}
+
+.light-toggle-switch {
+  border: 2px solid #0f0f0f;
+  color: #0f0f0f;
+}
+
+.dark-toggle-switch {
+  border: 2px solid yellow;
+  color: yellow;
+}
+
+.light-toggle-switch:hover {
+  background-color: #0f0f0f;
+  color: white;
+}
+
+.dark-toggle-switch:hover {
+  background-color: yellow;
+  color: #0f0f0f;
 }

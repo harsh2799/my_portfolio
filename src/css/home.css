@@ -15,6 +15,10 @@
     padding: 10px;
 }
 
+.intro-text {
+  color: var(--main-font-color);
+}
+
 .frame {
     background: linear-gradient(95deg,#9aefab,#26d153,#bfe923,#db73e9);
     background-size: 180% 180%;
@@ -23,7 +27,6 @@
     padding: 1rem; /* Add padding to create space between the border and content */
     border: none; /* Set an initial transparent border */
     border-radius: 10px;
-    
     outline: none;
     border: none;
   }
