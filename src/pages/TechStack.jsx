@@ -8,7 +8,7 @@ const TechStack = () => {
   const randColor = []
 
   return (
-    <div id="techstack" className='flex flex-col gap-3 justify-center techstack-bg'>
+    <div id="techstack" style={{padding: "30px"}}className='flex flex-col gap-3 justify-center techstack-bg'>
 
       {
         skills.map((skill, index) => {
