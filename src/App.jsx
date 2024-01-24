@@ -37,6 +37,7 @@ export default function App() {
     document.documentElement.style.setProperty('---skill-button', colorData["skill-button"]);
     document.documentElement.style.setProperty('--techstack-background', colorData["techstack-background"]);
     document.documentElement.style.setProperty('--tile-background', colorData["tile-background"]);
+    document.documentElement.style.setProperty('--tile-frame-background', colorData["tile-background"]);
   }
 
   useEffect(() => {

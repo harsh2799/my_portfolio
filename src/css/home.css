@@ -19,6 +19,10 @@
   color: var(--main-font-color);
 }
 
+.tile-frame-bg {
+  background-color: var(--tile-frame-background);
+}
+
 .frame {
     background: linear-gradient(95deg,#9aefab,#26d153,#bfe923,#db73e9);
     background-size: 180% 180%;
@@ -32,7 +36,7 @@
   }
 
 .frame-content {
-    background-color: var(--main-background-color);
+
     padding: 100px;
 }
  

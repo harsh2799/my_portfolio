@@ -13,7 +13,7 @@ const Home = () => {
           <div className='cut-bottom'></div>
           <div className='cut-top'></div>
           
-          <div className='frame-content tile-bg'>
+          <div className='frame-content tile-frame-bg'>
             <motion.div  
               initial={{x:"100%", opacity: 0}}
               animate={{x: "0", opacity: 1, transition: {ease: "linear", duration: .75}}}
