@@ -17,7 +17,7 @@ const Home = () => {
             <motion.div  
               initial={{x:"100%", opacity: 0}}
               animate={{x: "0", opacity: 1, transition: {ease: "linear", duration: .75}}}
-              className='text-4xl md:text-6xl lg:text-8xl mx-auto lg:mx-56 mb-9 leading-tight capitalize'>
+              className='text-4xl md:text-6xl lg:text-8xl mx-auto mb-9 leading-tight capitalize'>
               <p>👋 <span className='bg-clip-text text-transparent bg-gradient-to-r from-sky-500 via-purple-500 to-pink-500'><span>Hello there!</span> <br /> <span>I'm Harsh Mishra</span></span></p>
             </motion.div>
             <motion.div 

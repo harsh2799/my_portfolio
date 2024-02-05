@@ -216,7 +216,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 1000px ) {
+@media screen and (max-width: 1350px ) {
     .excontent {
         height: auto;
     }

@@ -20,10 +20,7 @@ export default function App() {
     else{ 
       changeTheme("light");
       changeColor("light");
-    }
-
-    console.log(currentTheme)
-    
+    }    
   }
 
   const changeColor = (theme) => {

@@ -197,7 +197,7 @@
 
 }
 
-@media (max-width: 1240px) {
+@media only screen and (max-width: 1350px) {
 
   .content-div > div:not(:first-child) {
     height: auto;
@@ -205,7 +205,7 @@
   
 }
 
-@media (max-width: 800px) {
+@media  only screen and (max-width: 800px) {
 
   .tile-bg {
     background: none;
