@@ -78,6 +78,15 @@
     ],
     "experience": [
         {
+            "id": 4,
+            "company_name": "Odoo PVT. LTD",
+            "position": "Full Stack Developer",
+            "time": "May 2024 - Present",
+            "skills": ["Python", "OWL Framework", "Javascript", "Postgres"],
+            "description": "Developing customized Odoo applications for Keimed, India’s largest medicine distributor, implementing scalable solutions to handle high user volumes while ensuring seamless system integration and performance optimization.",
+            "logo": "odoo-logo.png"
+        },
+        {
             "id": 3,
             "company_name": "turabit solutions LLC",
             "position": "Software Developer",
